@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tuit</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading\.\.\.</string>
+    <string name="retry">Retry</string>
+    <string name="app_label">Tuit</string>
+    <string name="search_hint">Search</string>
+    <string name="tweet_placeholder_line1">What?! I couldn\'t find anything like this.</string>
+    <string name="tweet_placeholder_line2">Please try again ;)</string>
+    <string name="app_placeholder_line1">Let\'s start?</string>
+    <string name="app_placeholder_line2">Put some text in the search bar.</string>
+    <string name="token_error_msg">Twitter token is invalid.</string>
+    <string name="error_message">Ops! Something went wrong.</string>
+    <string name="limit_error_msg">Calm down, little grasshopper! You have reached the request limit. Please go get some air and try again.</string>
+    <string name="internet_error_msg">Please check your Internet connection and try again.</string>
+    <string name="invalid_search_error_msg">Invalid search. Please try again.</string>
+    <string name="account_placeholder_line1">What?! Is this account a Carluxo robot?</string>
+    <string name="account_placeholder_line2">Please try again ;)</string>
+</resources>

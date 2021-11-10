@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.20520833333333333" />
+        <entry key="../../.gradle/caches/transforms-3/b42a5e103dd431f494571ffdaa8eeb19/transformed/appcompat-1.3.1/res/layout/abc_search_dropdown_item_icons_2line.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/drawable/avatar.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/circular.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_bird.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/item_background.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/layout/base_tweet_fragment.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/error_item.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/load_item.xml" value="0.19739583333333333" />
+        <entry key="app/src/main/res/layout/loading_item.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/loading_list_item.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/loading_state_item.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/main_fragment.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/profile_activity.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/profile_fragment.xml" value="0.19739583333333333" />
+        <entry key="app/src/main/res/layout/search_dropdown_item.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/tweet_activity.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/tweet_fragment.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/tweet_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/tweet_item2.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/tweet_list_activity.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/xml/searchable.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
