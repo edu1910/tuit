@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import br.com.ceducarneiro.tuit.databinding.TweetItemBinding
 import br.com.ceducarneiro.tuit.model.Tweet
 import com.squareup.picasso.Picasso
+import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -26,7 +27,11 @@ class TweetListViewHolder(private val binding: TweetItemBinding) :
             val dateTimeFormat = SimpleDateFormat("EE MMM dd HH':'mm':'ss Z yyyy", Locale.ENGLISH)
 
             if (tweet.date != null) {
-                val dateTime = dateTimeFormat.parse(tweet.date)
+                val dateTime = try {
+                    dateTimeFormat.parse(tweet.date)
+                } catch (ex: ParseException) {
+                    null
+                }
                 if (dateTime != null) {
                     val now = Calendar.getInstance().time
                     val diff = now.time - dateTime.time
@@ -47,6 +52,8 @@ class TweetListViewHolder(private val binding: TweetItemBinding) :
                     } else {
                         txtTime.text = ("${days}d")
                     }
+                } else {
+                    txtTime.text = "?"
                 }
             }
             gridImages.removeAllViews()
