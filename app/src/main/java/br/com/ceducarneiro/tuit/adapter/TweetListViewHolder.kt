@@ -23,7 +23,7 @@ class TweetListViewHolder(private val binding: TweetItemBinding) :
             txtUsername.text = ("@ ${tweet.user?.username.toString()}")
             txtTweet.text = tweet.text
             Picasso.get().load(tweet.user?.avatar).into(imgAvatar)
-            val dateTimeFormat = SimpleDateFormat("EE MMM dd HH':'mm':'ss Z yyyy")
+            val dateTimeFormat = SimpleDateFormat("EE MMM dd HH':'mm':'ss Z yyyy", Locale.ENGLISH)
 
             if (tweet.date != null) {
                 val dateTime = dateTimeFormat.parse(tweet.date)
