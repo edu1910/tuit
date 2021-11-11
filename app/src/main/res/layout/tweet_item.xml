@@ -50,7 +50,7 @@
                     android:maxLines="1"
                     android:ellipsize="end"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
+                    android:textColor="?android:textColorPrimary"
                     tools:ignore="HardcodedText" />
 
                 <TextView
@@ -61,7 +61,7 @@
                     android:maxLines="1"
                     android:layout_marginStart="4dp"
                     android:ellipsize="end"
-                    android:textColor="@color/black"
+                    android:textColor="?android:textColorPrimary"
                     tools:ignore="HardcodedText" />
 
                 <TextView
@@ -70,7 +70,7 @@
                     android:maxLines="1"
                     android:layout_marginHorizontal="4dp"
                     android:text="•"
-                    android:textColor="@color/black"
+                    android:textColor="?android:textColorPrimary"
                     tools:ignore="HardcodedText" />
 
                 <TextView
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:maxLines="1"
                     android:text="2h"
-                    android:textColor="@color/black"
+                    android:textColor="?android:textColorPrimary"
                     tools:ignore="HardcodedText" />
 
             </TableRow>
@@ -95,7 +95,7 @@
             app:layout_constraintStart_toEndOf="@id/card_avatar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/layout_title"
-            android:textColor="@color/black"
+            android:textColor="?android:textColorPrimary"
             tools:ignore="HardcodedText" />
 
         <GridLayout
